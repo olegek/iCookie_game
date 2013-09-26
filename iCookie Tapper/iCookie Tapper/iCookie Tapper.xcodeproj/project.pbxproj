@@ -478,6 +478,7 @@
 				AC7EDDEE17F4CC3E009AFE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC7EDDEF17F4CC3E009AFE94 /* Build configuration list for PBXNativeTarget "iCookie TapperTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				AC7EDDF117F4CC3E009AFE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
