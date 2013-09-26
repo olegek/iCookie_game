@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1143835217F1BEB600F516A5"
+               BlueprintIdentifier = "AC7EDDA717F4CC3D009AFE94"
                BuildableName = "iCookie Tapper.app"
                BlueprintName = "iCookie Tapper"
                ReferencedContainer = "container:iCookie Tapper.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1143837317F1BEB900F516A5"
+               BlueprintIdentifier = "AC7EDDD917F4CC3E009AFE94"
                BuildableName = "iCookie TapperTests.octest"
                BlueprintName = "iCookie TapperTests"
                ReferencedContainer = "container:iCookie Tapper.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143835217F1BEB600F516A5"
+            BlueprintIdentifier = "AC7EDDA717F4CC3D009AFE94"
             BuildableName = "iCookie Tapper.app"
             BlueprintName = "iCookie Tapper"
             ReferencedContainer = "container:iCookie Tapper.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143835217F1BEB600F516A5"
+            BlueprintIdentifier = "AC7EDDA717F4CC3D009AFE94"
             BuildableName = "iCookie Tapper.app"
             BlueprintName = "iCookie Tapper"
             ReferencedContainer = "container:iCookie Tapper.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143835217F1BEB600F516A5"
+            BlueprintIdentifier = "AC7EDDA717F4CC3D009AFE94"
             BuildableName = "iCookie Tapper.app"
             BlueprintName = "iCookie Tapper"
             ReferencedContainer = "container:iCookie Tapper.xcodeproj">

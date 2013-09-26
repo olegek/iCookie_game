@@ -1,24 +1,21 @@
 //
-//  AppDelegate.m
+//  ViewAppDelegate.m
 //  iCookie Tapper
 //
-//  Created by Alexander on 9/24/13.
-//  Copyright (c) 2013 iCookie International Limited Transcorporation. All rights reserved.
+//  Created by Guest on 26.09.13.
+//  Copyright (c) 2013 OC. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ViewAppDelegate.h"
 
-@implementation AppDelegate
+@implementation ViewAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

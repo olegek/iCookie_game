@@ -2,8 +2,8 @@
 //  iCookie_TapperTests.m
 //  iCookie TapperTests
 //
-//  Created by Alexander on 9/24/13.
-//  Copyright (c) 2013 iCookie International Limited Transcorporation. All rights reserved.
+//  Created by Guest on 26.09.13.
+//  Copyright (c) 2013 OC. All rights reserved.
 //
 
 #import "iCookie_TapperTests.h"
