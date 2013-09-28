@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEB46E317F6C76200250ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E217F6C76200250ABD /* UIKit.framework */; };
+		ACEB46E517F6C76200250ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E417F6C76200250ABD /* Foundation.framework */; };
+		ACEB46E717F6C76200250ABD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E617F6C76200250ABD /* CoreGraphics.framework */; };
+		ACEB46ED17F6C76200250ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46EB17F6C76200250ABD /* InfoPlist.strings */; };
+		ACEB46EF17F6C76200250ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB46EE17F6C76200250ABD /* main.m */; };
+		ACEB46F317F6C76200250ABD /* ViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB46F217F6C76200250ABD /* ViewAppDelegate.m */; };
+		ACEB46F517F6C76200250ABD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46F417F6C76200250ABD /* Default.png */; };
+		ACEB46F717F6C76200250ABD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46F617F6C76200250ABD /* Default@2x.png */; };
+		ACEB46F917F6C76200250ABD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46F817F6C76200250ABD /* Default-568h@2x.png */; };
+		ACEB46FC17F6C76200250ABD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46FA17F6C76200250ABD /* MainStoryboard_iPhone.storyboard */; };
+		ACEB46FF17F6C76200250ABD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB46FD17F6C76200250ABD /* MainStoryboard_iPad.storyboard */; };
+		ACEB470217F6C76200250ABD /* ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB470117F6C76200250ABD /* ViewViewController.m */; };
+		ACEB470A17F6C76200250ABD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB470917F6C76200250ABD /* SenTestingKit.framework */; };
+		ACEB470B17F6C76200250ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E217F6C76200250ABD /* UIKit.framework */; };
+		ACEB470C17F6C76200250ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E417F6C76200250ABD /* Foundation.framework */; };
+		ACEB471417F6C76200250ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEB471217F6C76200250ABD /* InfoPlist.strings */; };
+		ACEB471717F6C76200250ABD /* iCookieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB471617F6C76200250ABD /* iCookieTests.m */; };
+		ACF4979317F74C5C00EFF5BB /* 640x960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4978E17F74C5C00EFF5BB /* 640x960.jpg */; };
+		ACF4979417F74C5C00EFF5BB /* 4482_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4978F17F74C5C00EFF5BB /* 4482_1.jpg */; };
+		ACF4979517F74C5C00EFF5BB /* 1005352521.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */; };
+		ACF4979617F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */; };
+		ACF4979717F74C5C00EFF5BB /* IMG_3607.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEB470D17F6C76200250ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEB46D517F6C76200250ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEB46DD17F6C76200250ABD;
+			remoteInfo = iCookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEB46DE17F6C76200250ABD /* iCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEB46E217F6C76200250ABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACEB46E417F6C76200250ABD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACEB46E617F6C76200250ABD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACEB46EA17F6C76200250ABD /* iCookie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCookie-Info.plist"; sourceTree = "<group>"; };
+		ACEB46EC17F6C76200250ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEB46EE17F6C76200250ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACEB46F017F6C76200250ABD /* iCookie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCookie-Prefix.pch"; sourceTree = "<group>"; };
+		ACEB46F117F6C76200250ABD /* ViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewAppDelegate.h; sourceTree = "<group>"; };
+		ACEB46F217F6C76200250ABD /* ViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewAppDelegate.m; sourceTree = "<group>"; };
+		ACEB46F417F6C76200250ABD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACEB46F617F6C76200250ABD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACEB46F817F6C76200250ABD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACEB46FB17F6C76200250ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		ACEB46FE17F6C76200250ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		ACEB470017F6C76200250ABD /* ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewViewController.h; sourceTree = "<group>"; };
+		ACEB470117F6C76200250ABD /* ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewViewController.m; sourceTree = "<group>"; };
+		ACEB470817F6C76200250ABD /* iCookieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCookieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEB470917F6C76200250ABD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACEB471117F6C76200250ABD /* iCookieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCookieTests-Info.plist"; sourceTree = "<group>"; };
+		ACEB471317F6C76200250ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEB471517F6C76200250ABD /* iCookieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCookieTests.h; sourceTree = "<group>"; };
+		ACEB471617F6C76200250ABD /* iCookieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCookieTests.m; sourceTree = "<group>"; };
+		ACF4978E17F74C5C00EFF5BB /* 640x960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 640x960.jpg; sourceTree = "<group>"; };
+		ACF4978F17F74C5C00EFF5BB /* 4482_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4482_1.jpg; sourceTree = "<group>"; };
+		ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1005352521.jpg; sourceTree = "<group>"; };
+		ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg"; sourceTree = "<group>"; };
+		ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3607.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEB46DB17F6C76200250ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB46E317F6C76200250ABD /* UIKit.framework in Frameworks */,
+				ACEB46E517F6C76200250ABD /* Foundation.framework in Frameworks */,
+				ACEB46E717F6C76200250ABD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB470417F6C76200250ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB470A17F6C76200250ABD /* SenTestingKit.framework in Frameworks */,
+				ACEB470B17F6C76200250ABD /* UIKit.framework in Frameworks */,
+				ACEB470C17F6C76200250ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEB46D317F6C76200250ABD = {
+			isa = PBXGroup;
+			children = (
+				ACEB46E817F6C76200250ABD /* iCookie */,
+				ACEB470F17F6C76200250ABD /* iCookieTests */,
+				ACEB46E117F6C76200250ABD /* Frameworks */,
+				ACEB46DF17F6C76200250ABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEB46DF17F6C76200250ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB46DE17F6C76200250ABD /* iCookie.app */,
+				ACEB470817F6C76200250ABD /* iCookieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEB46E117F6C76200250ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB46E217F6C76200250ABD /* UIKit.framework */,
+				ACEB46E417F6C76200250ABD /* Foundation.framework */,
+				ACEB46E617F6C76200250ABD /* CoreGraphics.framework */,
+				ACEB470917F6C76200250ABD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEB46E817F6C76200250ABD /* iCookie */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB46F117F6C76200250ABD /* ViewAppDelegate.h */,
+				ACEB46F217F6C76200250ABD /* ViewAppDelegate.m */,
+				ACEB46FA17F6C76200250ABD /* MainStoryboard_iPhone.storyboard */,
+				ACEB46FD17F6C76200250ABD /* MainStoryboard_iPad.storyboard */,
+				ACEB470017F6C76200250ABD /* ViewViewController.h */,
+				ACEB470117F6C76200250ABD /* ViewViewController.m */,
+				ACEB46E917F6C76200250ABD /* Supporting Files */,
+			);
+			path = iCookie;
+			sourceTree = "<group>";
+		};
+		ACEB46E917F6C76200250ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB46EA17F6C76200250ABD /* iCookie-Info.plist */,
+				ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */,
+				ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */,
+				ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */,
+				ACEB46EB17F6C76200250ABD /* InfoPlist.strings */,
+				ACF4978F17F74C5C00EFF5BB /* 4482_1.jpg */,
+				ACF4978E17F74C5C00EFF5BB /* 640x960.jpg */,
+				ACEB46EE17F6C76200250ABD /* main.m */,
+				ACEB46F017F6C76200250ABD /* iCookie-Prefix.pch */,
+				ACEB46F417F6C76200250ABD /* Default.png */,
+				ACEB46F617F6C76200250ABD /* Default@2x.png */,
+				ACEB46F817F6C76200250ABD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACEB470F17F6C76200250ABD /* iCookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB471517F6C76200250ABD /* iCookieTests.h */,
+				ACEB471617F6C76200250ABD /* iCookieTests.m */,
+				ACEB471017F6C76200250ABD /* Supporting Files */,
+			);
+			path = iCookieTests;
+			sourceTree = "<group>";
+		};
+		ACEB471017F6C76200250ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB471117F6C76200250ABD /* iCookieTests-Info.plist */,
+				ACEB471217F6C76200250ABD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEB46DD17F6C76200250ABD /* iCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEB471A17F6C76200250ABD /* Build configuration list for PBXNativeTarget "iCookie" */;
+			buildPhases = (
+				ACEB46DA17F6C76200250ABD /* Sources */,
+				ACEB46DB17F6C76200250ABD /* Frameworks */,
+				ACEB46DC17F6C76200250ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCookie;
+			productName = iCookie;
+			productReference = ACEB46DE17F6C76200250ABD /* iCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEB470717F6C76200250ABD /* iCookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEB471D17F6C76200250ABD /* Build configuration list for PBXNativeTarget "iCookieTests" */;
+			buildPhases = (
+				ACEB470317F6C76200250ABD /* Sources */,
+				ACEB470417F6C76200250ABD /* Frameworks */,
+				ACEB470517F6C76200250ABD /* Resources */,
+				ACEB470617F6C76200250ABD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEB470E17F6C76200250ABD /* PBXTargetDependency */,
+			);
+			name = iCookieTests;
+			productName = iCookieTests;
+			productReference = ACEB470817F6C76200250ABD /* iCookieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEB46D517F6C76200250ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = View;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = OC;
+			};
+			buildConfigurationList = ACEB46D817F6C76200250ABD /* Build configuration list for PBXProject "iCookie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACEB46D317F6C76200250ABD;
+			productRefGroup = ACEB46DF17F6C76200250ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEB46DD17F6C76200250ABD /* iCookie */,
+				ACEB470717F6C76200250ABD /* iCookieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEB46DC17F6C76200250ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB46ED17F6C76200250ABD /* InfoPlist.strings in Resources */,
+				ACEB46F517F6C76200250ABD /* Default.png in Resources */,
+				ACEB46F717F6C76200250ABD /* Default@2x.png in Resources */,
+				ACEB46F917F6C76200250ABD /* Default-568h@2x.png in Resources */,
+				ACEB46FC17F6C76200250ABD /* MainStoryboard_iPhone.storyboard in Resources */,
+				ACEB46FF17F6C76200250ABD /* MainStoryboard_iPad.storyboard in Resources */,
+				ACF4979317F74C5C00EFF5BB /* 640x960.jpg in Resources */,
+				ACF4979417F74C5C00EFF5BB /* 4482_1.jpg in Resources */,
+				ACF4979517F74C5C00EFF5BB /* 1005352521.jpg in Resources */,
+				ACF4979617F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg in Resources */,
+				ACF4979717F74C5C00EFF5BB /* IMG_3607.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB470517F6C76200250ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB471417F6C76200250ABD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACEB470617F6C76200250ABD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEB46DA17F6C76200250ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB46EF17F6C76200250ABD /* main.m in Sources */,
+				ACEB46F317F6C76200250ABD /* ViewAppDelegate.m in Sources */,
+				ACEB470217F6C76200250ABD /* ViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB470317F6C76200250ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB471717F6C76200250ABD /* iCookieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEB470E17F6C76200250ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEB46DD17F6C76200250ABD /* iCookie */;
+			targetProxy = ACEB470D17F6C76200250ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACEB46EB17F6C76200250ABD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEB46EC17F6C76200250ABD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACEB46FA17F6C76200250ABD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEB46FB17F6C76200250ABD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEB46FD17F6C76200250ABD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEB46FE17F6C76200250ABD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEB471217F6C76200250ABD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEB471317F6C76200250ABD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEB471817F6C76200250ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEB471917F6C76200250ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEB471B17F6C76200250ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCookie/iCookie-Prefix.pch";
+				INFOPLIST_FILE = "iCookie/iCookie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACEB471C17F6C76200250ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCookie/iCookie-Prefix.pch";
+				INFOPLIST_FILE = "iCookie/iCookie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACEB471E17F6C76200250ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCookie.app/iCookie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCookie/iCookie-Prefix.pch";
+				INFOPLIST_FILE = "iCookieTests/iCookieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ACEB471F17F6C76200250ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCookie.app/iCookie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCookie/iCookie-Prefix.pch";
+				INFOPLIST_FILE = "iCookieTests/iCookieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEB46D817F6C76200250ABD /* Build configuration list for PBXProject "iCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB471817F6C76200250ABD /* Debug */,
+				ACEB471917F6C76200250ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEB471A17F6C76200250ABD /* Build configuration list for PBXNativeTarget "iCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB471B17F6C76200250ABD /* Debug */,
+				ACEB471C17F6C76200250ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEB471D17F6C76200250ABD /* Build configuration list for PBXNativeTarget "iCookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB471E17F6C76200250ABD /* Debug */,
+				ACEB471F17F6C76200250ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEB46D517F6C76200250ABD /* Project object */;
+}
