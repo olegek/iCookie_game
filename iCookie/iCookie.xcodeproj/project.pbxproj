@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3F1F0017F9AC0F00203B8C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1EFE17F9AC0F00203B8C /* GameViewController.m */; };
+		AC3F1F0117F9AC0F00203B8C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1EFF17F9AC0F00203B8C /* GameViewController.xib */; };
+		AC4920B617FCBCCB00DC28E6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4920B517FCBCCB00DC28E6 /* facebook.png */; };
+		AC4920B917FCBCDE00DC28E6 /* iphone_mail_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4920B817FCBCDE00DC28E6 /* iphone_mail_icon.png */; };
 		ACEB46E317F6C76200250ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E217F6C76200250ABD /* UIKit.framework */; };
 		ACEB46E517F6C76200250ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E417F6C76200250ABD /* Foundation.framework */; };
 		ACEB46E717F6C76200250ABD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB46E617F6C76200250ABD /* CoreGraphics.framework */; };
@@ -29,6 +33,12 @@
 		ACF4979517F74C5C00EFF5BB /* 1005352521.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */; };
 		ACF4979617F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */; };
 		ACF4979717F74C5C00EFF5BB /* IMG_3607.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */; };
+		ACF58CE517FCA581000459CB /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF58CE417FCA581000459CB /* Twitter.framework */; };
+		ACF58CE817FCA713000459CB /* TwitterIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF58CE717FCA713000459CB /* TwitterIcon.jpg */; };
+		ACF58CEA17FCA84A000459CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF58CE917FCA84A000459CB /* AVFoundation.framework */; };
+		ACF58CEC17FCA853000459CB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF58CEB17FCA853000459CB /* MessageUI.framework */; };
+		ACF58CEE17FCA9D5000459CB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF58CED17FCA9D5000459CB /* GameKit.framework */; };
+		ACF58CF017FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF58CEF17FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3F1EFD17F9AC0F00203B8C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		AC3F1EFE17F9AC0F00203B8C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		AC3F1EFF17F9AC0F00203B8C /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		AC4920B517FCBCCB00DC28E6 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		AC4920B817FCBCDE00DC28E6 /* iphone_mail_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_mail_icon.png; sourceTree = "<group>"; };
 		ACEB46DE17F6C76200250ABD /* iCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEB46E217F6C76200250ABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACEB46E417F6C76200250ABD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +85,12 @@
 		ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1005352521.jpg; sourceTree = "<group>"; };
 		ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg"; sourceTree = "<group>"; };
 		ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3607.JPG; sourceTree = "<group>"; };
+		ACF58CE417FCA581000459CB /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		ACF58CE717FCA713000459CB /* TwitterIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TwitterIcon.jpg; path = "../../../../Documents/Mem Cards Progect/master for fix/mem-cards-game/MemCards/MemCards/TwitterIcon.jpg"; sourceTree = "<group>"; };
+		ACF58CE917FCA84A000459CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ACF58CEB17FCA853000459CB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ACF58CED17FCA9D5000459CB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		ACF58CEF17FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "147282-iphone_gamecenter_icon_original.jpg"; path = "../../../../Downloads/147282-iphone_gamecenter_icon_original.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF58CEE17FCA9D5000459CB /* GameKit.framework in Frameworks */,
+				ACF58CEC17FCA853000459CB /* MessageUI.framework in Frameworks */,
+				ACF58CEA17FCA84A000459CB /* AVFoundation.framework in Frameworks */,
+				ACF58CE517FCA581000459CB /* Twitter.framework in Frameworks */,
 				ACEB46E317F6C76200250ABD /* UIKit.framework in Frameworks */,
 				ACEB46E517F6C76200250ABD /* Foundation.framework in Frameworks */,
 				ACEB46E717F6C76200250ABD /* CoreGraphics.framework in Frameworks */,
@@ -130,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				ACEB46F117F6C76200250ABD /* ViewAppDelegate.h */,
+				AC3F1EFD17F9AC0F00203B8C /* GameViewController.h */,
+				AC3F1EFE17F9AC0F00203B8C /* GameViewController.m */,
 				ACEB46F217F6C76200250ABD /* ViewAppDelegate.m */,
 				ACEB46FA17F6C76200250ABD /* MainStoryboard_iPhone.storyboard */,
 				ACEB46FD17F6C76200250ABD /* MainStoryboard_iPad.storyboard */,
@@ -144,7 +171,16 @@
 			isa = PBXGroup;
 			children = (
 				ACEB46EA17F6C76200250ABD /* iCookie-Info.plist */,
+				AC4920B817FCBCDE00DC28E6 /* iphone_mail_icon.png */,
+				AC4920B517FCBCCB00DC28E6 /* facebook.png */,
+				ACF58CEF17FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg */,
+				ACF58CE717FCA713000459CB /* TwitterIcon.jpg */,
+				ACF58CED17FCA9D5000459CB /* GameKit.framework */,
+				ACF58CEB17FCA853000459CB /* MessageUI.framework */,
+				ACF58CE917FCA84A000459CB /* AVFoundation.framework */,
+				ACF58CE417FCA581000459CB /* Twitter.framework */,
 				ACF4979117F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg */,
+				AC3F1EFF17F9AC0F00203B8C /* GameViewController.xib */,
 				ACF4979017F74C5C00EFF5BB /* 1005352521.jpg */,
 				ACF4979217F74C5C00EFF5BB /* IMG_3607.JPG */,
 				ACEB46EB17F6C76200250ABD /* InfoPlist.strings */,
@@ -261,6 +297,11 @@
 				ACF4979517F74C5C00EFF5BB /* 1005352521.jpg in Resources */,
 				ACF4979617F74C5C00EFF5BB /* bloknot-otkusannoe-pechene-china-bluesky-trading-180x180.jpg in Resources */,
 				ACF4979717F74C5C00EFF5BB /* IMG_3607.JPG in Resources */,
+				AC3F1F0117F9AC0F00203B8C /* GameViewController.xib in Resources */,
+				ACF58CE817FCA713000459CB /* TwitterIcon.jpg in Resources */,
+				ACF58CF017FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg in Resources */,
+				AC4920B617FCBCCB00DC28E6 /* facebook.png in Resources */,
+				AC4920B917FCBCDE00DC28E6 /* iphone_mail_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +339,7 @@
 				ACEB46EF17F6C76200250ABD /* main.m in Sources */,
 				ACEB46F317F6C76200250ABD /* ViewAppDelegate.m in Sources */,
 				ACEB470217F6C76200250ABD /* ViewViewController.m in Sources */,
+				AC3F1F0017F9AC0F00203B8C /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

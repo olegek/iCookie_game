@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Twitter/Twitter.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MessageUI/MessageUI.h>
+#import <GameKit/GameKit.h>
 
 @interface ViewViewController : UIViewController
+{
+    
+}
 
+-(IBAction)email:(id)sender;
+-(IBAction)tweet:(id)sender;
+-(IBAction)showLeader;
 @end
