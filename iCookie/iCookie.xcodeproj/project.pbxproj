@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1AF26B17FD5B540009CB31 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AF26A17FD5B540009CB31 /* Social.framework */; };
 		AC3F1F0017F9AC0F00203B8C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1EFE17F9AC0F00203B8C /* GameViewController.m */; };
 		AC3F1F0117F9AC0F00203B8C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1EFF17F9AC0F00203B8C /* GameViewController.xib */; };
 		AC4920B617FCBCCB00DC28E6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4920B517FCBCCB00DC28E6 /* facebook.png */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1AF26A17FD5B540009CB31 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		AC3F1EFD17F9AC0F00203B8C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		AC3F1EFE17F9AC0F00203B8C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		AC3F1EFF17F9AC0F00203B8C /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1AF26B17FD5B540009CB31 /* Social.framework in Frameworks */,
 				ACF58CEE17FCA9D5000459CB /* GameKit.framework in Frameworks */,
 				ACF58CEC17FCA853000459CB /* MessageUI.framework in Frameworks */,
 				ACF58CEA17FCA84A000459CB /* AVFoundation.framework in Frameworks */,
@@ -175,6 +178,7 @@
 				AC4920B517FCBCCB00DC28E6 /* facebook.png */,
 				ACF58CEF17FCACA4000459CB /* 147282-iphone_gamecenter_icon_original.jpg */,
 				ACF58CE717FCA713000459CB /* TwitterIcon.jpg */,
+				AC1AF26A17FD5B540009CB31 /* Social.framework */,
 				ACF58CED17FCA9D5000459CB /* GameKit.framework */,
 				ACF58CEB17FCA853000459CB /* MessageUI.framework */,
 				ACF58CE917FCA84A000459CB /* AVFoundation.framework */,

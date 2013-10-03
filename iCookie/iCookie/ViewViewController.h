@@ -16,8 +16,8 @@
 {
     
 }
-
 -(IBAction)email:(id)sender;
 -(IBAction)tweet:(id)sender;
 -(IBAction)showLeader;
+-(IBAction)postToFacebook:(id)sender;
 @end

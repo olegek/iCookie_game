@@ -7,6 +7,7 @@
 //
 
 #import "ViewViewController.h"
+#import <Social/Social.h>
 
 @interface ViewViewController ()
 
@@ -25,10 +26,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-// HS for twetter
+// sharing twitter
 -(IBAction)tweet:(id)sender{
     TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc]init];
-    [twitter setInitialText:@"my hight score = "];
+    [twitter setInitialText:@"iCookie"];
+    [twitter addURL:[NSURL URLWithString:@"http://apple.com"]];
+    [twitter addImage:[UIImage imageNamed:@"image.jpg"]];
+    
     [self presentViewController:twitter animated:YES completion:nil];
     
     twitter.completionHandler = ^(TWTweetComposeViewControllerResult res){
@@ -77,5 +81,18 @@
 -(void)leaderboardViewControllerDidFinish: (GKLeaderboardViewController *)viewController{
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
-
+// post To Facebook
+- (IBAction)postToFacebook:(id)sender {
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        
+        SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        
+        [controller setInitialText:@"iCookie"];
+        [controller addURL:[NSURL URLWithString:@"http://apple.com"]];
+        [controller addImage:[UIImage imageNamed:@"image.jpg"]];
+        
+        [self presentViewController:controller animated:YES completion:Nil];
+        
+    }
+}
 @end
